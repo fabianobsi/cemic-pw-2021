@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PW-Formulário</title>
+</head>
+<body>
+  <h1 align="center">Página da Tabela</h1>
+  <nav>
+    <ol>
+      <ul>Índice das páginas em uma lista não ordenada (ul)</ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="paragrafos.html">Parágrafos</a></li>
+        <li><a href="imagens.html">Imagens</a></li>
+        <li><a href="tabela.html">Tabela</a></li>
+        <li><a href="formulario.html">Formulário</a></li>
+    </ol>
+  </nav>
+  <main>
+    <h1 align="center">Página do formulário</h1>
+    <section id="secao_form">
+      <h2>Informação de contato</h2>
+      <fieldset>
+        <legend>Título (Aqui, só uma das opções)</legend>
+        <ul>
+            <li>
+              <label">
+                <input type="radio" name="srsa">
+                Senhor
+              </label>
+            </li>
+            <li>
+              <label">
+                <input type="radio" name="srsa">
+                Senhora
+              </label>
+            </li>
+        </ul>
+      </fieldset>
+      <p>
+        <label for="name">
+          <span>Nome: </span>
+          <strong><abbr title="required">*</abbr></strong>
+        </label>
+        <input type="text" id="name" name="username">
+      </p>
+      <p>
+        <label for="mail">
+          <span>E-mail: </span>
+          <strong><abbr title="required">*</abbr></strong>
+        </label>
+        <input type="email" id="mail" name="usermail">
+      </p>
+      <p>
+        <label for="pwd">
+          <span>Senha: </span>
+          <strong><abbr title="required">*</abbr></strong>
+        </label>
+        <input type="password" id="pwd" name="password">
+      </p>
+      <fieldset>
+        <legend>Escolha mais de uma opção</legend>
+        <ul>
+            <li>
+              <label">
+                <input type="checkbox" name="op">
+                Opção 1
+              </label>
+            </li>
+            <li>
+              <label">
+                <input type="checkbox" name="op">
+                Opção 2
+              </label>
+            </li>
+            <li>
+              <label">
+                <input type="checkbox" name="op">
+                Opção 3
+              </label>
+            </li>
+            <li>
+              <label">
+                <input type="checkbox" name="op">
+                Opção 4
+              </label>
+            </li>
+        </ul>
+      </fieldset>
+  </section>
+  </main>
+</body>
+</html>
