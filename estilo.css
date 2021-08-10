@@ -1,0 +1,38 @@
+
+
+body{
+  background-color: #EEEEEE;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  width: 90%;
+  margin: 0 auto;
+  /*Assim se faz comentário no CSS*/
+  /*border: 5px solid black;*/
+}
+h1{
+  color: #0F044C;
+  background-color: lightsteelblue;
+}
+h2{
+  color: darkred;
+}
+h3{
+  color:purple
+}
+p {
+  text-align: justify;
+  padding: 0 20px 20px 20px;
+}
+.menu{
+    background-color: #787A91;
+}
+img{
+  width: 500px;
+  padding: 0 30px 30px 30px;
+}
+section{
+  padding: 0 30px 30px 30px;
+}
+footer{
+  font-size: 12px;
+}
